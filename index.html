@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biliardopoli</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <script type="module" src="assets/js/script.js"></script>
+    <style>
+        .puntatore, .puntatoreAcquisto{
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body class="w-100">
+    <div class="container w-100 d-flex flex-row flex-sm-column-reverse justify-content-between justify-content-sm-center align-items-sm-center">
+        <nav class="navbar navbar-expand-sm">
+            <button class="navbar-toggler text-success" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav dropdown">
+                    <li class="nav-item active">
+                        <a class="nav-link text-success" id="home" href="#">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-success" id="chisiamo" href="#">Chi Siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" id="carrello" href="#">Carrello</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-success" id="navbarDropdownMenuLink" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Categorie
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item text-success" id="snooker" href="#">Snooker</a>
+                          <a class="dropdown-item text-success" id="pool" href="#">Pool</a>
+                          <a class="dropdown-item text-success" id="carambola" href="#">Carambola</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link privacy text-success" id="contatti" href="#">Contattaci</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link privacy text-success" id="login" href="#">Log-In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="w-25 d-flex flex-row justify-content-center align-items-center">
+            <img class="w-50" src="assets/img/logo.png">
+        </div>
+    </div>
+
+    <div id="contenitore">
+        
+    </div>
+    <div id="contenitoreBis">
+        
+    </div>
+</body>
+
+</html>

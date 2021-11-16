@@ -1,0 +1,74 @@
+[
+    {
+        "id":"0",
+        "tipo":"Carambola",
+        "nome":"Carambola Light",
+        "dimensioni":"250x120",
+        "prezzo":"2000",
+        "url":"assets/img/carambola1.jpg"
+    },
+    {
+        "id":"1",
+        "tipo":"Carambola",
+        "nome":"Carambola",
+        "dimensioni":"265x130",
+        "prezzo":"3000",
+        "url":"assets/img/carambola2.jpg"
+    },
+    {
+        "id":"2",
+        "tipo":"Carambola",
+        "nome":"Carambola Plus",
+        "dimensioni":"285x150",
+        "prezzo":"4000",
+        "url":"assets/img/carambola3.jpg"
+    },
+    {
+        "id":"3",
+        "tipo":"Pool",
+        "nome":"Pool Light",
+        "dimensioni":"200x120",
+        "prezzo":"1500",
+        "url":"assets/img/pool1.jpg"
+    },
+    {
+        "id":"4",
+        "tipo":"Pool",
+        "nome":"Pool",
+        "dimensioni":"215x125",
+        "prezzo":"2000",
+        "url":"assets/img/pool2.jpg"
+    },
+    {
+        "id":"5",
+        "tipo":"Pool",
+        "nome":"Pool Plus",
+        "dimensioni":"230x130",
+        "prezzo":"3000",
+        "url":"assets/img/pool3.jpg"
+    },
+    {
+        "id":"6",
+        "tipo":"Snooker",
+        "nome":"Snooker Light",
+        "dimensioni":"260x150",
+        "prezzo":"2500",
+        "url":"assets/img/snooker1.jpg"
+    },
+    {
+        "id":"7",
+        "tipo":"Snooker",
+        "nome":"Snooker",
+        "dimensioni":"275x155",
+        "prezzo":"3000",
+        "url":"assets/img/snooker2.jpg"
+    },
+    {
+        "id":"8",
+        "tipo":"Snooker",
+        "nome":"Snooker Plus",
+        "dimensioni":"290x160",
+        "prezzo":"4500",
+        "url":"assets/img/snooker3.jpg"
+    }
+]
